@@ -1,0 +1,17 @@
+{
+  "label": {
+    "orders": "Orders",
+    "ship_name": "Ship Name",
+    "ship_country": "Country",
+    "ship_city": "City",
+    "ship_postal_code": "Postal Code",
+    "ship_address": "Address",
+    "freight": "Freight",
+    "order_date": "Order Date",
+    "required_date": "Required Date",
+    "shipped_date": "Shipped Date"
+  },
+  "button": {
+    "back": "Back"
+  }
+}

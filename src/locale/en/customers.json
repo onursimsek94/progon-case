@@ -1,0 +1,17 @@
+{
+  "label": {
+    "customers": "Customers",
+    "company_name": "Company Name",
+    "contact_name": "Contact Name",
+    "contact_title": "Contact Title",
+    "address": "Address",
+    "city": "City",
+    "postal_code": "Postal Code",
+    "country": "Country",
+    "phone": "Phone",
+    "fax": "Fax"
+  },
+  "button": {
+    "filter": "Filter"
+  }
+}

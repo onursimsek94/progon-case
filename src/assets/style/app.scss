@@ -1,0 +1,111 @@
+@import "./variable";
+@import "~bulma";
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,500,600&display=swap&subset=latin-ext');
+
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family-sans-serif !important;
+  font-size: $font-size-small;
+  font-weight: $font-weight-normal;
+  color: $pn-black;
+  background-color: $pn-light-gray;
+  min-height: 100vh;
+
+  .page-frame {
+    padding: 100px 40px;
+
+    .page-title {
+      padding: 20px;
+      font-size: $font-size-extra-large;
+      font-weight: $font-weight-bolder;
+    }
+
+    > div {
+      border-radius: 4px;
+      background-color: $pn-white;
+
+      .view-actions {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px;
+      }
+    }
+  }
+
+  .pn-label {
+    font-size: $font-size-small;
+    font-weight: $font-weight-bold;
+  }
+
+  .pn-button {
+    min-width: 150px;
+    border: none;
+    font-weight: $font-weight-bolder;
+    color: $pn-white;
+
+    &.gray-btn {
+      background-color: $pn-gray;
+
+      &:hover, &:focus, &:active {
+        color: $pn-white;
+        background-color: $pn-gray;
+      }
+    }
+  }
+
+  .el-select {
+    width: 100%;
+  }
+
+  .el-notification {
+    display: flex;
+    align-items: center;
+
+    &.success-notification {
+      color: #67c23a;
+      background-color: #f0f9eb;
+    }
+
+    &.warning-notification {
+      color: #e6a23c;
+      background-color: #fdf6ec;
+    }
+
+    &.error-notification {
+      color: #f56c6c;
+      background-color: #fef0f0;
+    }
+
+    &__content {
+      color: inherit;
+    }
+  }
+
+  .el-table {
+    width: 100%;
+
+    &__header .cell {
+      text-align: center;
+      color: $pn-black;
+    }
+
+    &__body .cell {
+      color: $pn-black;
+    }
+
+    .content-dots {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}

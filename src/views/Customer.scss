@@ -1,0 +1,14 @@
+.customers-view {
+  .customer-detail-btn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .el-pagination {
+    padding: 20px 0;
+
+    &__sizes, &__total {
+      float: right;
+    }
+  }
+}
